@@ -1,0 +1,73 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(114, 114, 190);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color:rgb(114, 114, 190);
+    color: #fff;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main {
+    padding: 2rem;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.car img{
+    width: 100%;
+
+}
+.car {
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+footer {
+    background-color: rgb(114, 114, 190);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.quantity img {
+    width: 10px;
+    height: 10px;
+
+}
+
